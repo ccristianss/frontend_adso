@@ -110,3 +110,10 @@ h1 {
   justify-content: space-around;
   text-align: center;
 }
+footer{    
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background: rgb(60, 62, 68);;
+
+}
