@@ -1,0 +1,62 @@
+body {
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: wheat;
+  padding: 20px;
+}
+h1 {
+  font-size: xx-large;
+  margin: 20px 0px 0px 0px;
+}
+p {
+  margin: 0px;
+}
+
+.contenedor {
+  display: flex;
+  background: whitesmoke;
+  justify-content: center;
+  padding: 15px;
+}
+.formulario {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+input {
+  width: 100%;
+  margin: 5px;
+  text-align: center;
+  font-size: larger;
+}
+label {
+  width: 100%;
+  text-align: center;
+  font-size: large;
+}
+input[type="submit" i] {
+  background: forestgreen;
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 30px;
+}
+footer {
+  background: slategrey;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+h2 {
+  margin: 0px;
+}
+h3 {
+  margin: 0px;
+}

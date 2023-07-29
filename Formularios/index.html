@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios HTML</title>
+    <link rel="stylesheet" href="static/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Practica con Formularios</h1>
+      <p>HTML y JS</p>
+    </header>
+    <div class="contenedor">
+      <form action="detallepeticion.html" method="get">
+        <div class="formulario">
+          <label for="name">Digite su nombre: </label>
+          <input type="text" name="name" id="name" required />
+        </div>
+        <div class="formulario">
+          <label for="lastname">Su Apellidos: </label>
+          <input type="text" name="lastname" id="lastname" required />
+        </div>
+        <div class="formulario">
+          <label for="telefono">Su Telefono: </label>
+          <input type="tel" name="telefono" id="telefono" required />
+        </div>
+        <div class="formulario">
+          <label for="email">Su correo: </label>
+          <input type="email" name="email" id="email" required />
+        </div>
+        <div class="formulario">
+          <label for="dateC">Fecha de Cumpleaños:</label>
+          <input type="date" id="dateC" name="dateC" />
+        </div>
+        <div class="formulario">
+          <input type="submit" value="Enviar" />
+        </div>
+      </form>
+    </div>
+    <footer>© CRSI.DEV</footer>
+  </body>
+</html>
