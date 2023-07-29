@@ -18,7 +18,8 @@ fetch(API + "/" + id)
           `;
     }
     var detail = `
-      <h1>${data.name}</h1>
+    <div class="headDetail">
+      <h1 class="h1detail">${data.name}</h1>
       <div class="imageDetail">
         <img
           src="${data.image}"
@@ -27,11 +28,12 @@ fetch(API + "/" + id)
       </div>
 
       <div>
-        <h2>Status: ${data.status}</h2>
+        <h3>Status: ${data.status}</h3>
         <h3>species: ${data.species}</h3>
         <h3>gender: ${data.gender}</h3>
         <h3>origin: ${data.origin.name}</h3>
         <h3>location: ${data.location.name}</h3>
+      </div>
       </div>
       <div class="episodes">
       ${episode}
